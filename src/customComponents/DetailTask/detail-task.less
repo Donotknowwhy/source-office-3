@@ -1,0 +1,70 @@
+@import '../../styles/variables.less';
+
+.detail-task {
+  height: 100%;
+  p {
+    font-size: 14px;
+    color: @header-text-color;
+    font-weight: 400;
+    margin-bottom: 8px;
+  }
+  &__function {
+    width: 40px;
+    background-color: @gray-color-20;
+    flex-direction: column;
+    svg {
+      margin-top: 38px;
+      &:nth-of-type(1) {
+        margin-top: 77px;
+      }
+    }
+  }
+  &__content {
+    padding: 16px 32px 16px 16px;
+    width: 100%;
+    box-sizing: content-box;
+  }
+  &__header {
+    display: flex;
+    justify-content: space-between;
+    h3 {
+      font-size: 16px;
+      color: @primary-color;
+    }
+  }
+  &__panel {
+    p {
+      &:nth-of-type(1) {
+        line-height: 1.025rem;
+        color: @aeaeaeColor;
+        width: 6.25rem;
+      }
+    }
+  }
+  &__logo-attachment {
+    width: 13px;
+  }
+  &__panel-media {
+    width: calc(100% - 100px);
+    h5 {
+      color: @link-color;
+      margin-bottom: 8px;
+      width: 100%;
+      max-width: 240px;
+    }
+  }
+  &__add-task {
+    div {
+      width: fit-content;
+      padding: 4px 4px 0px 4px;
+      background-color: @primary-color;
+      border-radius: 4px;
+    }
+    p {
+      color: @link-color;
+    }
+  }
+  &__panel-icon {
+    cursor: pointer;
+  }
+}

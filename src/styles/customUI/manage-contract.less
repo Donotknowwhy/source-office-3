@@ -1,0 +1,45 @@
+.management-contract {
+  &-information-wrapper {
+    &__title {
+      width: 8.75rem;
+    }
+  }
+}
+
+.management-common-information-wrapper {
+  position: relative;
+
+  .edit-form-modal {
+    position: absolute;
+    top: 24px;
+    right: 2%;
+    z-index: 1;
+  }
+  &__card {
+    .ant-row {
+      margin: 1rem;
+      &:not(:last-child) {
+        border-bottom: 1px solid @c4c4c4Color;
+      }
+    }
+  }
+}
+
+.management-bill-information-wrapper {
+  position: relative;
+
+  .edit-form-modal {
+    position: absolute;
+    top: 24px;
+    right: 2%;
+    z-index: 1;
+  }
+  &__card {
+    .ant-row {
+      padding: 1rem;
+      &:not(:last-child) {
+        border-bottom: 1px solid @c4c4c4Color;
+      }
+    }
+  }
+}

@@ -1,0 +1,125 @@
+// @import
+
+.list-employees-wrapper-hrm {
+  &__ant-col {
+    // height: 50rem;
+    // overflow-y: scroll;
+    cursor: pointer;
+  }
+  &__body {
+    font-family: 'SF Pro Display';
+    font-size: 0.875rem;
+    line-height: 1.025rem;
+    padding: 0.75rem;
+    background-color: @white-color;
+    margin-bottom: 4px;
+    border-radius: 0.75rem;
+    min-width: 6.375rem;
+    padding-bottom: 0;
+    &--triple-dot {
+      cursor: pointer;
+      position: relative;
+    }
+    &--title {
+      color: @262626Color;
+      font-weight: 500;
+    }
+    &--id {
+      min-height: 1.25rem;
+      color: @color-gray-rgba;
+    }
+    &--role {
+      min-height: 1.25rem;
+      color: @color-gray-rgba;
+    }
+    &--phone-number {
+      color: @primary-color;
+    }
+  }
+
+  &__enter-view-profile {
+    padding-top: 2rem;
+    text-align: center;
+    color: @black-color;
+    font-weight: 500;
+    font-size: 1rem;
+    line-height: 1.025rem;
+  }
+  &__view-image-default {
+    text-align: center;
+  }
+
+  // Work History
+
+  .detail-employee-working-history {
+    position: relative;
+    // background-color: @white-color;
+    border-left: 2px solid @primary-color;
+    &__main-content {
+      padding-top: 1rem;
+      padding-bottom: 0.5rem;
+      padding-left: 0.25rem;
+      background-color: @e8e8e8Color;
+    }
+    &__date {
+      &--text {
+        padding: 0.25rem 1rem 0.25rem 0.5rem;
+        position: absolute;
+        left: -2px;
+        top: -10px;
+        background: url('../../assets/img/HRM/WorkingHistory/WorkHistoryTitleBg.png')
+          no-repeat;
+        // background: @primary-color;
+        color: @white-color;
+        &:after {
+          // content: '';
+          position: absolute;
+          bottom: 0;
+          top: 0;
+          border: 13px solid @primary-color;
+          // border-right-color: @white-color;
+          // border-bottom-color: @white-color;
+          // border-top-color: @white-color;
+
+          // background: inherit;
+          margin-bottom: 0.5rem;
+          z-index: 2;
+        }
+      }
+    }
+    &__title {
+      font-size: 1rem;
+    }
+    &__description {
+      font-size: 0.875rem;
+    }
+    &__attached-files {
+      color: @primary-color;
+      size: 0.75rem;
+      line-height: 1.25rem;
+      text-decoration: underline;
+      cursor: pointer;
+    }
+  }
+}
+
+.btn-input-search-hrm {
+  width: 100%;
+  max-width: 31.25rem;
+}
+
+.wrapper-data-none-employees {
+  height: 100vh;
+  text-align: center;
+  padding-top: 3.5rem;
+  max-width: 18.1875rem;
+  margin: 0 auto;
+  &__content {
+    font-weight: 500;
+    font-size: 1rem;
+    line-height: 1.025rem;
+    /* or 125% */
+
+    color: @black-color;
+  }
+}

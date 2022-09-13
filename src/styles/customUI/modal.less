@@ -1,0 +1,39 @@
+.dialog-popup-modal {
+  // position: fixed;
+  // top: 0;
+  // left: 0;
+  // right: 0;
+  // bottom: 0;
+  // background-color: @background-color-modal;
+  // z-index: 2;
+  &__container {
+    // position: absolute;
+    // top: 50%;
+    // left: 50%;
+    // transform: translate(-50%, -50%);
+    // background: @white-color;
+    // box-shadow: 0px 4px 20px @color-box-shadows-body-modal;
+    // border-radius: 12px;
+    // min-width: 30.5rem;
+    &--title {
+      height: 3rem;
+      background: @primary-color;
+      border-radius: 12px 12px 0px 0px;
+      line-height: 3rem;
+      color: @white-color;
+    }
+    &--body {
+      &.container--body__heading-content {
+        font-family: 'SF Pro Display';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 1rem;
+        line-height: 20px;
+      }
+      &.container--body__main-content {
+        max-width: 18.75rem;
+        margin: 0 auto;
+      }
+    }
+  }
+}

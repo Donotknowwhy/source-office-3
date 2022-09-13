@@ -1,0 +1,32 @@
+/*Progress Styles*/
+.ant-progress-line {
+  margin-right: 8px;
+  margin-bottom: 8px;
+}
+
+.ant-progress.ant-progress-line.ant-progress-status-normal.ant-progress-show-info.ant-progress-small,
+.ant-progress.ant-progress-line.ant-progress-status-success.ant-progress-show-info.ant-progress-small {
+  width: 200px;
+}
+
+.ant-progress-bg {
+  background-color: #ff9f0a;
+}
+.ant-progress-text {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  left: 0;
+  color: @white-color;
+  font-size: 0.75rem;
+  line-height: 1.025rem;
+}
+
+.ant-progress-circle {
+  .ant-progress-line;
+}
+.ant-progress-status-success {
+  .anticon.anticon-check-circle {
+    display: none;
+  }
+}

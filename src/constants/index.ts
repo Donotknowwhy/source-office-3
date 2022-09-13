@@ -1,0 +1,15 @@
+export const BUSINESS_CODE = 'Mã doanh nghiệp';
+export const ENTER_BUSINESS_CODE = 'Nhập mã doanh nghiệp';
+export const BUSINESS_NAME = 'Tên doanh nghiệp';
+export const ENTER_BUSINESS_NAME = 'Nhập tên doanh nghiệp';
+export const EMAIL = 'Email';
+export const ENTER_EMAIL = 'Nhập email';
+export const PHONE = 'Số điện thoại';
+export const ENTER_PHONE = 'Nhập số điện thoại';
+export const REGISTER_NOW = 'Đăng Kí ngay';
+export const FIELD_REQUIRED = 'Vui lòng nhập đầy đủ thông tin';
+export const REGEX_EMAIL = '^[a-z0-9._%+-]+@[a-z0-9.-]+\\.[a-z]{3,4}$';
+export const REGEX_NUMBER = `^[0-9]+$`;
+export const VALIDATE_EMAIL = 'Email không hợp lệ';
+export const VALIDATE_NUMBER = 'Thông tin cần nhập phải là số';
+export const DEFAULT_VALUE_INPUT = '--';

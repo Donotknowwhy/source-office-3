@@ -1,0 +1,43 @@
+.wrapper-dnd-drop-item {
+  position: relative;
+  border-radius: 6px;
+  border-left: 4px solid @ed1b24Color;
+  user-select: none;
+  padding: 1rem;
+  margin: 0 0 0.5rem 0;
+  min-height: 8.625rem;
+  background-color: @white-color !important;
+  &.is-dragging {
+    opacity: 0.7;
+  }
+}
+
+.drop-context-wrapper {
+  &__container {
+    &--title {
+      height: 2.5rem;
+      background: @white-color;
+      padding: 0.625rem 1.025rem;
+      align-items: center;
+      border-bottom: 4px solid @e8e8e8Color;
+    }
+    &--droppable {
+      min-height: 31.25rem;
+    }
+  }
+  .wrapper-dnd-drop-item {
+    &__title {
+      font-size: 1rem;
+      line-height: 1.025rem;
+      color: @layout-header-background;
+    }
+    &__status-task {
+      width: 1rem;
+      height: 1rem;
+      background-color: @layout-header-background;
+    }
+    &__name-task {
+      font-size: 0.085rem;
+    }
+  }
+}

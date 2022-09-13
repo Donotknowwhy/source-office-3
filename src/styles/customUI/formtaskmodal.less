@@ -1,0 +1,54 @@
+.form-task-modal {
+  .ant-modal-content {
+    border-radius: 12px;
+    .btn-footer {
+      margin-top: 46px;
+    }
+    .btn-cancel,
+    .btn-ok {
+      padding-right: 43px;
+      padding-left: 43px;
+    }
+    .ant-btn:not(:last-child) {
+      margin-right: 32px;
+    }
+    .ant-btn {
+      margin-bottom: 20px;
+    }
+    .ant-modal-body {
+      padding-right: 0px;
+      max-height: 75vh;
+      overflow-y: auto;
+      // overflow-x: hidden;
+      .btn-upload {
+        display: flex;
+        align-items: center;
+        margin-bottom: 0px;
+      }
+      .ant-upload-list-text .ant-upload-span {
+        display: flex;
+        align-items: stretch;
+      }
+      .ant-col-22 {
+        max-width: 100%;
+        padding-right: 24px;
+      }
+      .ant-form-item {
+        margin-bottom: 24px;
+      }
+    }
+  }
+  .ant-modal-header {
+    text-align: center;
+    font-size: 16px;
+    line-height: 20px;
+    background-color: @primary-color;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    .ant-modal-title {
+      color: @white-color;
+    }
+  }
+}

@@ -1,0 +1,127 @@
+{
+    "extends": [
+        "tslint:all",
+        "tslint-config-prettier",
+        "tslint-plugin-prettier"
+    ],
+    "rules": {
+        // Formatting rules
+        "prettier": true,
+        // Don't want these
+        "cyclomatic-complexity": false,
+        "increment-decrement": false,
+        "newline-before-return": false,
+        "no-parameter-properties": false,
+        "no-parameter-reassignment": false,
+        "no-unused-variable": false,
+        "typedef": false,
+        "unnecessary-else": false,
+        "no-default-export": false,
+        "return-undefined": false,
+        "no-unnecessary-type-assertion": false,
+        "no-restricted-globals": false,
+        "prefer-readonly": false,
+        "promise-function-async": false,
+        "await-promise": false,
+        "no-floating-promises": false,
+        "no-for-in-array": false,
+        "no-inferred-empty-object-type": false,
+        "no-null-undefined-union": false,
+        "no-promise-as-boolean": false,
+        "no-unsafe-any": false,
+        "restrict-plus-operands": false,
+        "strict-boolean-expressions": [
+            false,
+            "allow-null-union",
+            "allow-undefined-union",
+            "allow-string",
+            "allow-enum",
+            "allow-number"
+        ],
+        "strict-string-expressions": false,
+        "use-default-type-parameter": false,
+        "deprecation": false,
+        "match-default-export-name": false,
+        "no-boolean-literal-compare": false,
+        "file-name-casing": [false, "camel-case"],
+        // TODO: Enable stricter options for these
+        "comment-format": {
+            "options": [
+                "check-space"
+            ]
+        },
+        "member-access": false,
+        "array-type": [false],
+        "callable-types": [false],
+        "prefer-method-signature": false,
+        "only-arrow-functions": {
+            "options": [
+                "allow-declarations",
+                "allow-named-functions"
+            ]
+        },
+        // TODO: Enable these
+        "completed-docs": false,
+        "no-any": false,
+        "no-magic-numbers": false,
+        "no-non-null-assertion": false,
+        "no-null-keyword": false,
+        "no-require-imports": false,
+        "no-unbound-method": false,
+        "no-unnecessary-qualifier": false,
+        "no-use-before-declare": false,
+        "no-void-expression": false,
+        "prefer-function-over-method": false,
+        "strict-comparisons": false,
+        "strict-type-predicates": false,
+        "triple-equals": {
+            "options": [
+                "allow-undefined-check"
+            ]
+        },
+        // Misc
+        "ban": {
+            "options": [
+                [
+                    "describe",
+                    "only"
+                ],
+                [
+                    "it",
+                    "only"
+                ]
+            ]
+        },
+        "interface-name": false,
+        "file-header": [
+            false
+        ],
+        "max-classes-per-file": false,
+        "member-ordering": [false],
+        "no-console": {
+            "options": [
+                "log"
+            ]
+        },
+        "no-switch-case-fall-through": true,
+        "switch-default": true,
+        "variable-name": {
+            "options": [
+                "ban-keywords",
+                "check-format",
+                "allow-leading-underscore",
+                "allow-pascal-case"
+            ]
+        },
+        "linebreak-style": false,
+        "no-import-side-effect": false,
+        "no-submodule-imports": false,
+        "no-implicit-dependencies": false,
+        "no-shadowed-variable": false,
+        "no-default-import": false,
+        "jsonRecursiveSort": true,
+        "useTabs": false,
+        "tabWidth": 2,
+        "endOfLine": "lf"
+    }
+}

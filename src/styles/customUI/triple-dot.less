@@ -1,0 +1,33 @@
+.triple-dot-wrapper-component {
+  position: relative;
+  cursor: pointer;
+  z-index: 5;
+  .body--triple-dot__show-content {
+    position: absolute;
+    cursor: pointer;
+    width: 11.75rem;
+    font-size: 0.875rem;
+    line-height: 1.025rem;
+
+    background-color: @white-color;
+    right: -0.025rem;
+
+    box-shadow: 0px 2px 8px @color-box-shadows-body-modal;
+    border-radius: 0.75rem;
+
+    text-align: center;
+    padding: 1rem;
+    &--item {
+      border-bottom: 1px solid @e8e8e8Color;
+      padding: 0.25rem 0;
+
+      &:first-child {
+        padding-top: 0;
+      }
+      &:last-child {
+        border-bottom: transparent;
+        padding-bottom: 0;
+      }
+    }
+  }
+}
